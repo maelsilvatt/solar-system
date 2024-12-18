@@ -13,27 +13,8 @@ This project is a 3D visualization of the Solar System created using **Three.js*
 ## File Structure
 ```plaintext
 Project/
-├── src/
-│   └── main.py                # Placeholder for main code (to be replaced by JavaScript files)
-├── textures/
-│   └── README.md              # Placeholder for texture descriptions
-├── docs/
-│   └── instructions.txt       # Documentation and usage instructions
-├── system_solar/
-    ├── sun/
-    │   └── data.txt           # Information about the Sun
-    ├── mercury/
-    ├── venus/
-    ├── earth/
-    │   └── description.txt    # Information about Earth
-    │       └── moon/
-    ├── mars/
-    │   └── phobos/            # Data for Mars' moon Phobos
-    │   └── deimos/            # Data for Mars' moon Deimos
-    ├── jupiter/
-    ├── saturn/
-    ├── uranus/
-    └── neptune/
+├── planets/
+│   └── main.py                # Placeholder for main code (to be 
 ```
 
 ## Getting Started
