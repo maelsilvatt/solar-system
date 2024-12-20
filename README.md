@@ -16,7 +16,6 @@ This project is a 3D visualization of the Solar System, designed using Three.js,
 ## File Structure
 ```
 solar-system-threejs/
-|-- index.html
 |-- styles/
 │   |-- style.css
 |-- scripts/
@@ -36,5 +35,10 @@ solar-system-threejs/
 │   │   │   |-- phobos.jpg
 |   |   |   |-- ...
 │   |-- icons/
-
+|-- index.html
+|-- .gitignore
+|-- LICENSE
+|-- README.md
+|-- package-lock.json
+|-- package.json
 ```
