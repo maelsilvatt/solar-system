@@ -1,40 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title>Sistema Solar</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-		<link type="text/css" rel="stylesheet" href="main.css">
-		<style>
-			body {
-				background:#000;
-				color: #eee;
-			}
+<html lang="pt-br">
 
-			a {
-				color: #0080ff;
-			}
+<head>
+	<title> Sistema Solar </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<link rel="icon" href="assets/icons/sun_favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="styles/style.css">
+	
+</head>
 
-			b {
-				color: orange
-			}
-		</style>
-	</head>
-	<body>
-		<div id="info"><a href="https://threejs.org" target="_blank" rel="noopener">three.js</a> - earth [fly controls]<br/>
-		<b>WASD</b> move, <b>R|F</b> up | down, <b>Q|E</b> roll, <b>up|down</b> pitch, <b>left|right</b> yaw
-		</div>
+<body>
+	<div id="container"></div>
+	<div id="sidebar"></div>
+	<script src="scripts/main_old.js" type="module"></script>
+</body>
 
-		<script type="importmap">
-			{
-				"imports": {
-					"three": "../build/three.webgpu.js",
-					"three/webgpu": "../build/three.webgpu.js",
-					"three/tsl": "../build/three.tsl.js",
-					"three/addons/": "./jsm/"
-				}
-			}
-		</script>
-		<script type="module" src="src/main.js"></script>
-	</body>
 </html>
